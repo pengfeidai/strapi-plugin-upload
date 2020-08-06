@@ -1,5 +1,5 @@
 {
-  "name": "strapi-plugin-upload",
+  "name": "strapi-plugin-uploads",
   "version": "3.1.4",
   "description": "This is the description of the plugin.",
   "strapi": {
@@ -39,6 +39,9 @@
     "name": "A Strapi developer",
     "email": "",
     "url": ""
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   },
   "maintainers": [
     {
