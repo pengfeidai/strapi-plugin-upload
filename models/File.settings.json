@@ -56,6 +56,11 @@
       "configurable": false,
       "required": true
     },
+    "httpurl": {
+      "type": "string",
+      "configurable": false,
+      "required": true
+    },
     "previewUrl": {
       "type": "string",
       "configurable": false
