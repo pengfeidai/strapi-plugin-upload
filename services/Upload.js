@@ -263,6 +263,10 @@ module.exports = {
   async add(values) {
     sendMediaMetrics(values);
 
+    // 将url改为https
+    const url = values.url;
+    values.url = values.url.replace('http:', 'https:')
+    values.httpUrl = url;
     const res = await strapi.query('file', 'upload').create(values);
     strapi.eventHub.emit('media.create', { media: res });
     return res;
