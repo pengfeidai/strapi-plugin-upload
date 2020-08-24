@@ -56,7 +56,7 @@
       "configurable": false,
       "required": true
     },
-    "httpurl": {
+    "httpUrl": {
       "type": "string",
       "configurable": false,
       "required": true
